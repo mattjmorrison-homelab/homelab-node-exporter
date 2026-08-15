@@ -16,7 +16,7 @@ spec:
       hostPID: true
       containers:
         - name: node-exporter
-          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          image: "{{ .Values.image.repository }}@{{ .Values.image.digest }}"
           args:
             - --path.procfs=/host/proc
             - --path.sysfs=/host/sys
