@@ -1,0 +1,5 @@
+apiVersion: v2
+name: homelab-node-exporter
+description: Prometheus node exporter DaemonSet
+version: 0.1.0
+appVersion: "latest"
