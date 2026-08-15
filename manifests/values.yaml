@@ -1,3 +1,8 @@
 image:
   repository: prom/node-exporter
   digest: sha256:1b4e4438faca4dd7e001dd445d161a4a2091b0fededa84093b3a8dfeae1f1be0 # v1.12.1
+
+verify:
+  image:
+    repository: alpine
+    digest: sha256:d9e853e87e55526f6b2917df91a2115c36dd7c696a35be12163d44e6e2a4b6bc # 3.20
